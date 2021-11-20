@@ -57,7 +57,7 @@ public class VentanaPrincipal extends JFrame {
     }
 
     public static void mostrarVentanaClase() {
-        mostrarVentana(CambiarClase.getInstancia());
+        mostrarVentana(LibroClase.getInstancia());
     }
 
     private static void mostrarVentana(JInternalFrame frm) {
